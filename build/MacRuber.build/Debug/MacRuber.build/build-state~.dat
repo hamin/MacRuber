@@ -1,7 +1,7 @@
 TMacRuber
 v7
 r0
-t325751438.804082
+t325761862.904918
 cCheck dependencies
 cProcessInfoPlistFile /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Info.plist Info.plist
 cCopyStringsFile /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -39,64 +39,64 @@ t1304057273
 s202
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib
-c000000004DBA5B07000000000001E8CD
-t1304058631
-s125133
+c000000004DBA798F0000000000023E8F
+t1304066447
+s147087
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app
-t1304058638
+t1304069062
 s102
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Info.plist
-t1304058637
+t1304069061
 s772
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/MacOS/MacRuber
-t1304058638
+t1304069062
 s9080
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/PkgInfo
-t1304058637
+t1304069061
 s8
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1304058637
+t1304069061
 s202
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources/English.lproj/MainMenu.nib
-t1304058637
-s21803
+t1304069061
+s28198
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources/controller.rb
-t1304058637
-s870
+t1304069061
+s914
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources/core_ext.rb
-t1304058637
-s341
+t1304069061
+s381
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources/rb_main.rb
-t1304058637
+t1304069061
 s616
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/MacRuber.build/Debug/MacRuber.build/Objects-normal/x86_64/MacRuber.LinkFileList
-c000000004DBA5B0D000000000000007A
-t1304058637
+c000000004DBA83C5000000000000007A
+t1304069061
 s122
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/MacRuber.build/Debug/MacRuber.build/Objects-normal/x86_64/main.o
-t1304058638
+t1304069062
 s5380
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/controller.rb
-c000000004DBA56830000000000000366
-t1304057475
-s870
+c000000004DBA78400000000000000392
+t1304066112
+s914
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/core_ext.rb
-c000000004DBA565F0000000000000155
-t1304057439
-s341
+c000000004DBA7746000000000000017D
+t1304065862
+s381
 
 N/Users/haris.amin/workspace/macruby_stuff/MacRuber/main.m
 c000000004DBA55B900000000000000F8
@@ -116,11 +116,11 @@ s837
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies325751437#325751437#0(0"0(0#1#0"8607996128#0"0#
+lSLF07#2@18"Check dependencies325761861#325761861#0(0"0(0#1#0"8247620834010738688#0"0#
 
 CCompileC build/MacRuber.build/Debug/MacRuber.build/Objects-normal/x86_64/main.o /Users/haris.amin/workspace/macruby_stuff/MacRuber/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s325751437.999150
-e325751438.679925
+s325761861.708928
+e325761862.578041
 r1
 xCompileC
 xbuild/MacRuber.build/Debug/MacRuber.build/Objects-normal/x86_64/main.o
@@ -129,76 +129,92 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/haris.amin/workspace/macruby_stuff/MacRuber/main.m325751437#325751438#0(0"0(0#0#57"/Users/haris.amin/workspace/macruby_stuff/MacRuber/main.m8611832704#1090"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/MacRuber.build/Debug/MacRuber.build/MacRuber.hmap -F/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug -F/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug -I/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/include -I/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/MacRuber.build/Debug/MacRuber.build/DerivedSources/x86_64 -I/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/MacRuber.build/Debug/MacRuber.build/DerivedSources -c /Users/haris.amin/workspace/macruby_stuff/MacRuber/main.m -o /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/MacRuber.build/Debug/MacRuber.build/Objects-normal/x86_64/main.o0#
+lSLF07#2@65"Compile /Users/haris.amin/workspace/macruby_stuff/MacRuber/main.m325761861#325761862#0(0"0(0#0#57"/Users/haris.amin/workspace/macruby_stuff/MacRuber/main.m3917909816998063104#1090"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/MacRuber.build/Debug/MacRuber.build/MacRuber.hmap -F/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug -F/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug -I/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/include -I/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/MacRuber.build/Debug/MacRuber.build/DerivedSources/x86_64 -I/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/MacRuber.build/Debug/MacRuber.build/DerivedSources -c /Users/haris.amin/workspace/macruby_stuff/MacRuber/main.m -o /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/MacRuber.build/Debug/MacRuber.build/Objects-normal/x86_64/main.o0#
 
 CCompileXIB /Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib
-s325751437.766369
-e325751437.999034
+s325761861.445286
+e325761861.708721
 r1
 xCompileXIB
 x/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib325751437#325751437#0(0"0(0#0#77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib8606406048#401"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources/English.lproj/MainMenu.nib /Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+o/* com.apple.ibtool.document.warnings */
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:447: warning: This view overlaps one of its siblings. Overlapping sibling views are not supported on Mac OS X versions prior to 10.5.
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:437: warning: NSTextView's "Use Find Panel" option will be ignored on Mac OS X versions prior to 10.3.
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:437: warning: NSTextView's "Continuous Spell Checking" will be ignored on Mac OS X versions prior to 10.3.
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:440: warning: This view overlaps one of its siblings. Overlapping sibling views are not supported on Mac OS X versions prior to 10.5.
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:469: warning: Round Textured button cell is not supported on Mac OS X versions prior to 10.4.
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:469: warning: Image scaling is not supported on Mac OS X versions prior to 10.5.
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:459: warning: "Hidden" option will be ignored on Mac OS X versions prior to 10.3.
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:436: warning: "Hidden" option will be ignored on Mac OS X versions prior to 10.3.
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:442: warning: "Hidden" option will be ignored on Mac OS X versions prior to 10.3.
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:458: warning: NSTextView's "Use Find Panel" option will be ignored on Mac OS X versions prior to 10.3.
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:458: warning: NSTextView's "Continuous Spell Checking" will be ignored on Mac OS X versions prior to 10.3.
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:441: warning: NSTextView's "Use Find Panel" option will be ignored on Mac OS X versions prior to 10.3.
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:441: warning: NSTextView's "Continuous Spell Checking" will be ignored on Mac OS X versions prior to 10.3.
+o/* com.apple.ibtool.document.errors */
+o/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:449: error: NSController and its subclasses do not exist on Mac OS X versions prior to 10.3, and will render this nib unreadable on such systems.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib325761861#325761861#0(2637"/* com.apple.ibtool.document.warnings *//Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:447: warning: This view overlaps one of its siblings. Overlapping sibling views are not supported on Mac OS X versions prior to 10.5./Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:437: warning: NSTextView's "Use Find Panel" option will be ignored on Mac OS X versions prior to 10.3./Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:437: warning: NSTextView's "Continuous Spell Checking" will be ignored on Mac OS X versions prior to 10.3./Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:440: warning: This view overlaps one of its siblings. Overlapping sibling views are not supported on Mac OS X versions prior to 10.5./Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:469: warning: Round Textured button cell is not supported on Mac OS X versions prior to 10.4./Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:469: warning: Image scaling is not supported on Mac OS X versions prior to 10.5./Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:459: warning: "Hidden" option will be ignored on Mac OS X versions prior to 10.3./Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:436: warning: "Hidden" option will be ignored on Mac OS X versions prior to 10.3./Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:442: warning: "Hidden" option will be ignored on Mac OS X versions prior to 10.3./Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:458: warning: NSTextView's "Use Find Panel" option will be ignored on Mac OS X versions prior to 10.3./Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:458: warning: NSTextView's "Continuous Spell Checking" will be ignored on Mac OS X versions prior to 10.3./Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:441: warning: NSTextView's "Use Find Panel" option will be ignored on Mac OS X versions prior to 10.3./Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:441: warning: NSTextView's "Continuous Spell Checking" will be ignored on Mac OS X versions prior to 10.3./* com.apple.ibtool.document.errors *//Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib:449: error: NSController and its subclasses do not exist on Mac OS X versions prior to 10.3, and will render this nib unreadable on such systems.14(22@119"This view overlaps one of its siblings. Overlapping sibling views are not supported on Mac OS X versions prior to 10.5.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#447#0#447#0#0"0(22@88"NSTextView's "Use Find Panel" option will be ignored on Mac OS X versions prior to 10.3.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#437#0#437#0#0"0(22@92"NSTextView's "Continuous Spell Checking" will be ignored on Mac OS X versions prior to 10.3.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#437#0#437#0#0"0(22@119"This view overlaps one of its siblings. Overlapping sibling views are not supported on Mac OS X versions prior to 10.5.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#440#0#440#0#0"0(22@79"Round Textured button cell is not supported on Mac OS X versions prior to 10.4.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#469#0#469#0#0"0(22@66"Image scaling is not supported on Mac OS X versions prior to 10.5.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#469#0#469#0#0"0(22@67""Hidden" option will be ignored on Mac OS X versions prior to 10.3.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#459#0#459#0#0"0(22@67""Hidden" option will be ignored on Mac OS X versions prior to 10.3.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#436#0#436#0#0"0(22@67""Hidden" option will be ignored on Mac OS X versions prior to 10.3.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#442#0#442#0#0"0(22@88"NSTextView's "Use Find Panel" option will be ignored on Mac OS X versions prior to 10.3.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#458#0#458#0#0"0(22@92"NSTextView's "Continuous Spell Checking" will be ignored on Mac OS X versions prior to 10.3.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#458#0#458#0#0"0(22@88"NSTextView's "Use Find Panel" option will be ignored on Mac OS X versions prior to 10.3.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#441#0#441#0#0"0(22@92"NSTextView's "Continuous Spell Checking" will be ignored on Mac OS X versions prior to 10.3.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#441#0#441#0#0"0(4@133"NSController and its subclasses do not exist on Mac OS X versions prior to 10.3, and will render this nib unreadable on such systems.325761861#18446744073709551615#0#0(6@77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib325759247#449#0#449#0#0"0(0#0#77"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib8602981376#401"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources/English.lproj/MainMenu.nib /Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
 
 CCopyStringsFile /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s325751437.765076
-e325751437.801386
+s325761861.443909
+e325761861.509790
 r1
 xCopyStringsFile
 x/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources/English.lproj/InfoPlist.strings
 xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings325751437#325751437#0(0"0(0#0#82"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/InfoPlist.strings8603163616#391"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources/English.lproj0#
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings325761861#325761861#0(0"0(0#0#82"/Users/haris.amin/workspace/macruby_stuff/MacRuber/English.lproj/InfoPlist.strings8603383008#391"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources/English.lproj0#
 
 CCpResource build/Debug/MacRuber.app/Contents/Resources/controller.rb controller.rb
-s325751437.767043
-e325751437.778405
+s325761861.445929
+e325761861.451313
 r1
 xCpResource
 xbuild/Debug/MacRuber.app/Contents/Resources/controller.rb
 xcontroller.rb
-lSLF07#2@18"Copy controller.rb325751437#325751437#0(0"0(0#0#64"/Users/haris.amin/workspace/macruby_stuff/MacRuber/controller.rb8607520192#380"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/haris.amin/workspace/macruby_stuff/MacRuber/controller.rb /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources0#
+lSLF07#2@18"Copy controller.rb325761861#325761861#0(0"0(0#0#64"/Users/haris.amin/workspace/macruby_stuff/MacRuber/controller.rb8602884416#380"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/haris.amin/workspace/macruby_stuff/MacRuber/controller.rb /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources0#
 
 CCpResource build/Debug/MacRuber.app/Contents/Resources/core_ext.rb core_ext.rb
-s325751437.767808
-e325751437.777775
+s325761861.446559
+e325761861.454702
 r1
 xCpResource
 xbuild/Debug/MacRuber.app/Contents/Resources/core_ext.rb
 xcore_ext.rb
-lSLF07#2@16"Copy core_ext.rb325751437#325751437#0(0"0(0#0#62"/Users/haris.amin/workspace/macruby_stuff/MacRuber/core_ext.rb8607926752#378"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/haris.amin/workspace/macruby_stuff/MacRuber/core_ext.rb /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources0#
+lSLF07#2@16"Copy core_ext.rb325761861#325761861#0(0"0(0#0#62"/Users/haris.amin/workspace/macruby_stuff/MacRuber/core_ext.rb8602828704#378"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/haris.amin/workspace/macruby_stuff/MacRuber/core_ext.rb /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources0#
 
 CCpResource build/Debug/MacRuber.app/Contents/Resources/rb_main.rb rb_main.rb
-s325751437.765843
-e325751437.772904
+s325761861.444657
+e325761861.450415
 r1
 xCpResource
 xbuild/Debug/MacRuber.app/Contents/Resources/rb_main.rb
 xrb_main.rb
-lSLF07#2@15"Copy rb_main.rb325751437#325751437#0(0"0(0#0#61"/Users/haris.amin/workspace/macruby_stuff/MacRuber/rb_main.rb8606277824#377"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/haris.amin/workspace/macruby_stuff/MacRuber/rb_main.rb /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources0#
+lSLF07#2@15"Copy rb_main.rb325761861#325761861#0(0"0(0#0#61"/Users/haris.amin/workspace/macruby_stuff/MacRuber/rb_main.rb8603247584#377"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/haris.amin/workspace/macruby_stuff/MacRuber/rb_main.rb /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Resources0#
 
 CLd /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/MacOS/MacRuber normal x86_64
-s325751438.680011
-e325751438.798731
+s325761862.578130
+e325761862.901889
 r1
 xLd
 x/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/MacOS/MacRuber
 xnormal
 xx86_64
-lSLF07#2@104"Link /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/MacOS/MacRuber325751438#325751438#0(0"0(0#0#0"8609779776#691"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug -F/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug -F/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug -filelist /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/MacRuber.build/Debug/MacRuber.build/Objects-normal/x86_64/MacRuber.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework MacRuby -o /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/MacOS/MacRuber0#
+lSLF07#2@104"Link /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/MacOS/MacRuber325761862#325761862#0(0"0(0#0#0"8604954368#691"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug -F/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug -F/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug -filelist /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/MacRuber.build/Debug/MacRuber.build/Objects-normal/x86_64/MacRuber.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework MacRuby -o /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/MacOS/MacRuber0#
 
 CProcessInfoPlistFile /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Info.plist Info.plist
-s325751437.762126
-e325751437.764974
+s325761861.440770
+e325761861.443843
 r1
 xProcessInfoPlistFile
 x/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Info.plist
 xInfo.plist
-lSLF07#2@18"Process Info.plist325751437#325751437#0(0"0(0#0#61"/Users/haris.amin/workspace/macruby_stuff/MacRuber/Info.plist8609490976#340"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    builtin-infoPlistUtility Info.plist -genpkginfo /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Info.plist0#
+lSLF07#2@18"Process Info.plist325761861#325761861#0(0"0(0#0#61"/Users/haris.amin/workspace/macruby_stuff/MacRuber/Info.plist13229766294700130#340"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    builtin-infoPlistUtility Info.plist -genpkginfo /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app/Contents/Info.plist0#
 
 CTouch /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app
-s325751438.798846
-e325751438.804045
+s325761862.901982
+e325761862.904869
 r1
 xTouch
 x/Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app
-lSLF07#2@81"Touch /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app325751438#325751438#0(0"0(0#0#0"8611596768#156"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    /usr/bin/touch -c /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app0#
+lSLF07#2@81"Touch /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app325761862#325761862#0(0"0(0#0#0"8602568896#156"    cd /Users/haris.amin/workspace/macruby_stuff/MacRuber    /usr/bin/touch -c /Users/haris.amin/workspace/macruby_stuff/MacRuber/build/Debug/MacRuber.app0#
 

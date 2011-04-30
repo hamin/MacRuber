@@ -9,8 +9,8 @@ class Controller
 
   def evalRegex(sender)
 		text = @testString.textStorage.mutableString
-		regex = @regex.textStorage.mutableString
-		outText = text.match(regex).to_s
+		regex = Regexp.new(@regex.textStorage.mutableString)
+		outText = text.scan(regex).join
 		@result.clear
 		@result.appendText(outText)
   end

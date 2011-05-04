@@ -5,19 +5,17 @@
 # Copyright Haris Amin. All rights reserved.
 
 class Controller
-  attr_accessor :testString, :regex, :bwLabel,:window, :outputLabel
+  attr_accessor :testString, :regex, :bwLabel,:window, :outputLabel,:t1,:t2
 
   def evalRegex(sender)
-		text = @testString.textStorage.mutableString
-		regex = Regexp.new(@regex.textStorage.mutableString)
+		text = @testString.stringValue
+		regex = Regexp.new(@regex.stringValue)
 		outText = text.scan(regex).join
 		@bwLabel.stringValue = outText
   end
 	
 	def clearAllTextViews(sender)
-	  @testString.clear
-		@regex.clear
-		@bwLabel.stringValue = ''
+		[@testString,@regex,@bwLabel].each{|e| e.stringValue=''}
 	end
 
   def applicationDidFinishLaunching(note)

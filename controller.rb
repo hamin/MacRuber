@@ -5,14 +5,13 @@
 # Copyright Haris Amin. All rights reserved.
 
 class Controller
-  attr_accessor :testString, :regex, :result,:window
+  attr_accessor :testString, :regex, :bwLabel,:window, :outputLabel
 
   def evalRegex(sender)
 		text = @testString.textStorage.mutableString
 		regex = Regexp.new(@regex.textStorage.mutableString)
 		outText = text.scan(regex).join
-		@result.clear
-		@result.appendText(outText)
+		@bwLabel.stringValue = outText
   end
 	
 	def clearAllTextViews(sender)

@@ -19,9 +19,6 @@ class Controller
 	end
 
   def applicationDidFinishLaunching(note)
-    font = NSFont.fontWithName("Menlo-Regular", size: 13)
-    @inTextField.setFont(font)
-    @outTextField.setFont(font)
   end
 
   def applicationShouldTerminateAfterLastWindowClosed(application)

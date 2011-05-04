@@ -894,7 +894,6 @@
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<reference key="NSTarget" ref="1050125621"/>
 											<string key="NSAction">_doScroller:</string>
-											<double key="NSCurValue">0.032258064516129031</double>
 											<double key="NSPercent">0.99248120300751874</double>
 										</object>
 										<object class="NSScroller" id="737431495">
@@ -906,7 +905,7 @@
 											<int key="NSsFlags">1</int>
 											<reference key="NSTarget" ref="1050125621"/>
 											<string key="NSAction">_doScroller:</string>
-											<double key="NSCurValue">0.85677083333333337</double>
+											<double key="NSCurValue">0.89322916666666674</double>
 											<double key="NSPercent">0.94565218687057495</double>
 										</object>
 									</object>
@@ -1075,7 +1074,6 @@
 											<int key="NSViewLayerContentsRedrawPolicy">2</int>
 											<reference key="NSTarget" ref="845222040"/>
 											<string key="NSAction">_doScroller:</string>
-											<double key="NSCurValue">1</double>
 											<double key="NSPercent">0.99248120300751874</double>
 										</object>
 										<object class="NSScroller" id="571310017">
@@ -1610,6 +1608,22 @@
 						<reference key="destination" ref="379334386"/>
 					</object>
 					<int key="connectionID">539</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">nextKeyView</string>
+						<reference key="source" ref="582128748"/>
+						<reference key="destination" ref="845222040"/>
+					</object>
+					<int key="connectionID">549</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">initialFirstResponder</string>
+						<reference key="source" ref="972006081"/>
+						<reference key="destination" ref="582128748"/>
+					</object>
+					<int key="connectionID">552</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2521,6 +2535,7 @@
 					<string>440.IBPluginDependency</string>
 					<string>440.IBViewBoundsToFrameTransform</string>
 					<string>440.IBViewIntegration.shadowColor</string>
+					<string>441.IBAttributePlaceholdersKey</string>
 					<string>441.IBPluginDependency</string>
 					<string>441.IBViewIntegration.shadowColor</string>
 					<string>442.IBPluginDependency</string>
@@ -2709,9 +2724,9 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{659, 195}, {556, 658}}</string>
+					<string>{{464, 205}, {556, 658}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{659, 195}, {556, 658}}</string>
+					<string>{{464, 205}, {556, 658}}</string>
 					<integer value="1"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<boolean value="YES"/>
@@ -2736,6 +2751,14 @@
 						<bytes key="NSTransformStruct">P4AAAL+AAABClAAAxAeAAA</bytes>
 					</object>
 					<reference ref="874634900"/>
+					<object class="NSMutableDictionary">
+						<string key="NS.key.0">ToolTip</string>
+						<object class="IBToolTipAttribute" key="NS.object.0">
+							<string key="name">ToolTip</string>
+							<reference key="object" ref="309692337"/>
+							<string key="toolTip">Enter your Regular Expression Here.</string>
+						</object>
+					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="1047606542"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -2833,7 +2856,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">539</int>
+			<int key="maxID">552</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

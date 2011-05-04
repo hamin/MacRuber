@@ -22,7 +22,7 @@
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<integer value="81"/>
-			<integer value="372"/>
+			<integer value="437"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -793,6 +793,7 @@
 													</object>
 													<string key="NSFrameSize">{384, 93}</string>
 													<reference key="NSSuperview" ref="760214898"/>
+													<bool key="NSViewIsLayerTreeHost">YES</bool>
 													<int key="NSViewLayerContentsRedrawPolicy">2</int>
 													<object class="NSTextContainer" key="NSTextContainer" id="835686879">
 														<object class="NSLayoutManager" key="NSLayoutManager">
@@ -992,6 +993,7 @@
 													</object>
 													<string key="NSFrameSize">{375, 14}</string>
 													<reference key="NSSuperview" ref="885439054"/>
+													<bool key="NSViewIsLayerTreeHost">YES</bool>
 													<int key="NSViewLayerContentsRedrawPolicy">2</int>
 													<object class="NSTextContainer" key="NSTextContainer" id="851104360">
 														<object class="NSLayoutManager" key="NSLayoutManager">
@@ -1611,19 +1613,27 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">nextKeyView</string>
-						<reference key="source" ref="582128748"/>
-						<reference key="destination" ref="845222040"/>
-					</object>
-					<int key="connectionID">549</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">initialFirstResponder</string>
 						<reference key="source" ref="972006081"/>
 						<reference key="destination" ref="582128748"/>
 					</object>
 					<int key="connectionID">552</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">nextKeyView</string>
+						<reference key="source" ref="309692337"/>
+						<reference key="destination" ref="582128748"/>
+					</object>
+					<int key="connectionID">556</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">nextKeyView</string>
+						<reference key="source" ref="582128748"/>
+						<reference key="destination" ref="309692337"/>
+					</object>
+					<int key="connectionID">557</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2856,7 +2866,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">552</int>
+			<int key="maxID">557</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

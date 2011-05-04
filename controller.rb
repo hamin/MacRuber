@@ -17,7 +17,7 @@ class Controller
 	def clearAllTextViews(sender)
 	  @testString.clear
 		@regex.clear
-		@result.clear
+		@bwLabel.stringValue = ''
 	end
 
   def applicationDidFinishLaunching(note)

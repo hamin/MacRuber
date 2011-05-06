@@ -33,6 +33,3 @@ class Controller
     true
   end
 end
-
-
-

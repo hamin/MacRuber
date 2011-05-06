@@ -17,5 +17,3 @@ class NSTextView
 	  self.setString('')
 	end
 end
-
-

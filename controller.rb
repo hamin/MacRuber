@@ -14,7 +14,9 @@ class Controller
 		  outText = text.scan(regex).join
 		  @bwLabel.stringValue = outText
 		rescue RegexpError
-		  @bwLabel.stringValue = ''
+		  @bwLabel.stringValue = 'No Match'
+			@bwLabel.textColor = redColor
+			
 		end		
   end
 	

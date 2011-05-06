@@ -5,15 +5,23 @@
 # Copyright Haris Amin. All rights reserved.
 
 class Controller
-  attr_accessor :testString, :regex, :bwLabel,:window, :outputLabel,:t1,:t2
+  attr_accessor :testString, :regex, :bwLabel,:window
 
   def evalRegex(sender)
-		text = @testString.stringValue
-		regex = Regexp.new(@regex.stringValue)
-		outText = text.scan(regex).join
-		@bwLabel.stringValue = outText
+		begin
+		  text = @testString.stringValue
+		  regex = Regexp.new(@regex.stringValue)
+		  outText = text.scan(regex).join
+		  @bwLabel.stringValue = outText
+		rescue RegexpError
+		  @bwLabel.stringValue = ''
+		end		
   end
 	
+	def controlTextDidChange(notification)
+		evalRegex(self)
+	end
+		
 	def clearAllTextViews(sender)
 		[@testString,@regex,@bwLabel].each{|e| e.stringValue=''}
 	end

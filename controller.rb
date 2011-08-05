@@ -17,7 +17,6 @@ class Controller
 		rescue RegexpError
 			@matchedString.stringValue = 'No Match'
 			@matchedString.textColor = redColor
-			
 		end		
   end
 	

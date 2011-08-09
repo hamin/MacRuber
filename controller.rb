@@ -22,43 +22,47 @@ class Controller
 	
 	
   def awakeFromNib
-    @data = []
-    @data << [ '[abc]', 'A single character: a, b or c', '.', 'Any single character', '(...)', 'Capture everything enclosed' ]
-    @data << [ '[^abc]', 'Any single character but: a, b or c', '\s', 'Any whitespace character', '(a|b)', 'a or b' ]
-    @data << [ '[a-z]', 'Any single character in the range a-z', '\S', 'Any non-whitespace character', 'a?', 'Zero or one of a' ]
-    @data << [ '[a-zA-Z]', 'Any single character in the range a-z of A-Z', '\d', 'Any digit', 'a*', 'Zero or more of a' ]
-    @data << [ '[^]', 'Start of line', '\D', 'Any non-digit', 'a+', 'One or more of a' ]
-    @data << [ '[$]', 'End of line', '\w', 'Any word character (letter, number, underscore)', 'a{3}', 'Exactly 3 of a' ]
-    @data << [ '[\A]', 'Start of string', '\W', 'Any non-word character', 'a{3,}', '3 or more of a' ]
-    @data << [ '[\z]', 'End of string', '\b', 'Any word boundary character', 'a{3,6}', 'Between 3 and 6 of a' ]
+    @ref_data = []
+    @ref_data << [ '[abc]', 'A single character: a, b or c' ] 
+    @ref_data << [ '.', 'Any single character' ]
+    @ref_data << [ '(...)', 'Capture everything enclosed' ]
+    @ref_data << [ '[^abc]', 'Any single character but: a, b or c', '\s' ]
+    @ref_data << [ '\s', 'Any whitespace character' ]
+    @ref_data << [ '(a|b)', 'a or b' ]
+    @ref_data << [ '[a-z]', 'Any single character in the range a-z' ]
+    @ref_data << [ '\S', 'Any non-whitespace character' ]
+    @ref_data << [ 'a?', 'Zero or one of a' ]
+    @ref_data << [ '[a-zA-Z]', 'Any single character in the range a-z of A-Z' ]
+    @ref_data << [ '\d', 'Any digit' ]
+    @ref_data << [ 'a*', 'Zero or more of a' ]
+    @ref_data << [ '[^]', 'Start of line' ]
+    @ref_data << [ '\D', 'Any non-digit' ]
+    @ref_data << [ 'a+', 'One or more of a' ]
+    @ref_data << [ '[$]', 'End of line' ]
+    @ref_data << [ '\w', 'Any word character (letter, number, underscore)' ]
+    @ref_data << [ 'a{3}', 'Exactly 3 of a' ]
+    @ref_data << [ '[\A]', 'Start of string' ]
+    @ref_data << [ '\W', 'Any non-word character' ]
+    @ref_data << [ 'a{3,}', '3 or more of a' ]
+    @ref_data << [ '[\z]', 'End of string' ]
+    @ref_data << [ '\b', 'Any word boundary character' ]
+    @ref_data << [ 'a{3,6}', 'Between 3 and 6 of a' ]
+
 		@referenceTableView.dataSource = self
   end
 	
 	def numberOfRowsInTableView(view)
-    # @data.size
-    8
+    @ref_data.size
   end
-  
-  # def numberOfColumnsInTableView(view)
-  #   6
-  # end
 	
   def tableView(view, objectValueForTableColumn:column, row:index)
-    row_data = @data[index]
+    row_data = @ref_data[index]
     
     case column.identifier
     when "col0"
       row_data[0]
     when "col1"
       row_data[1]
-    when "col2"
-      row_data[2]
-    when "col3"
-      row_data[3]
-    when "col4"
-      row_data[4]
-    when "col5"
-      row_data[5]         
     end
     
   end

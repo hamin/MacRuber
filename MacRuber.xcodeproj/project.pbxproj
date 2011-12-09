@@ -53,6 +53,7 @@
 		91CF4D5A136A8DC200A8D5D7 /* core_ext.rb in Resources */ = {isa = PBXBuildFile; fileRef = 91CF4D59136A8DC200A8D5D7 /* core_ext.rb */; };
 		AF2CAD4F1491F7E800EA4744 /* core_data.rb in Resources */ = {isa = PBXBuildFile; fileRef = AF2CAD4E1491F7E800EA4744 /* core_data.rb */; };
 		AF2CAD531491F8D600EA4744 /* MacRuber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF2CAD511491F8D600EA4744 /* MacRuber.xcdatamodeld */; };
+		AF2CAD5514921F5C00EA4744 /* snippets_controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = AF2CAD5414921F5C00EA4744 /* snippets_controller.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +86,7 @@
 		91CF4D59136A8DC200A8D5D7 /* core_ext.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = core_ext.rb; sourceTree = "<group>"; };
 		AF2CAD4E1491F7E800EA4744 /* core_data.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = core_data.rb; sourceTree = "<group>"; };
 		AF2CAD521491F8D600EA4744 /* MacRuber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MacRuber.xcdatamodel; sourceTree = "<group>"; };
+		AF2CAD5414921F5C00EA4744 /* snippets_controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = snippets_controller.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				91CF4D56136A8D8E00A8D5D7 /* controller.rb */,
 				91CF4D59136A8DC200A8D5D7 /* core_ext.rb */,
 				AF2CAD4E1491F7E800EA4744 /* core_data.rb */,
+				AF2CAD5414921F5C00EA4744 /* snippets_controller.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				91CF4D57136A8D8E00A8D5D7 /* controller.rb in Resources */,
 				91CF4D5A136A8DC200A8D5D7 /* core_ext.rb in Resources */,
 				AF2CAD4F1491F7E800EA4744 /* core_data.rb in Resources */,
+				AF2CAD5514921F5C00EA4744 /* snippets_controller.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

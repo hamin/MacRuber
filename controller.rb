@@ -54,18 +54,18 @@ class Controller
 
 		@referenceTableView.dataSource = self
     
-    seed_data
+    #seed_data
   end
   
   def seed_data
     snippet = NSEntityDescription.insertNewObjectForEntityForName("Snippet", inManagedObjectContext:@managedObjectContext)
     
     snippet.title = "Email Regex"
-    snippet.regexp = "\d..(a^)"
+    snippet.regexp = "^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$"
     snippet.created_at = NSDate.date
     snippet.updated_at = NSDate.date
     snippet.summary = "This is an email regexp"
-    snippet.test_string = "Haris Amin's eamil address is aminharis7@gmail.com"
+    snippet.test_string = "Haris Amin's email address is aminharis7@gmail.com"
     
     @managedObjectContext.save(nil)
   end
@@ -88,6 +88,7 @@ class Controller
   end
   
   def tableViewSelectionDidChange(notification)
+    NSLog "IT CAME HERE!!!!"
     selected_row = @referenceTableView.selectedRow
     selected_regex = @ref_data[selected_row][0]
     old_regex = @regex.stringValue

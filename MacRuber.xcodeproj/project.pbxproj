@@ -51,6 +51,8 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		91CF4D57136A8D8E00A8D5D7 /* controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 91CF4D56136A8D8E00A8D5D7 /* controller.rb */; };
 		91CF4D5A136A8DC200A8D5D7 /* core_ext.rb in Resources */ = {isa = PBXBuildFile; fileRef = 91CF4D59136A8DC200A8D5D7 /* core_ext.rb */; };
+		AF2CAD4F1491F7E800EA4744 /* core_data.rb in Resources */ = {isa = PBXBuildFile; fileRef = AF2CAD4E1491F7E800EA4744 /* core_data.rb */; };
+		AF2CAD531491F8D600EA4744 /* MacRuber.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF2CAD511491F8D600EA4744 /* MacRuber.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +83,8 @@
 		8D1107320486CEB800E47090 /* MacRuber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacRuber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91CF4D56136A8D8E00A8D5D7 /* controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = controller.rb; sourceTree = "<group>"; };
 		91CF4D59136A8DC200A8D5D7 /* core_ext.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = core_ext.rb; sourceTree = "<group>"; };
+		AF2CAD4E1491F7E800EA4744 /* core_data.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = core_data.rb; sourceTree = "<group>"; };
+		AF2CAD521491F8D600EA4744 /* MacRuber.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MacRuber.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 			children = (
 				91CF4D56136A8D8E00A8D5D7 /* controller.rb */,
 				91CF4D59136A8DC200A8D5D7 /* core_ext.rb */,
+				AF2CAD4E1491F7E800EA4744 /* core_data.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 		29B97314FDCFA39411CA2CEA /* MacRuber */ = {
 			isa = PBXGroup;
 			children = (
+				AF2CAD511491F8D600EA4744 /* MacRuber.xcdatamodeld */,
 				172754AE1075979200D0347B /* Tests */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -241,6 +247,7 @@
 				2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */,
 				91CF4D57136A8D8E00A8D5D7 /* controller.rb in Resources */,
 				91CF4D5A136A8DC200A8D5D7 /* core_ext.rb in Resources */,
+				AF2CAD4F1491F7E800EA4744 /* core_data.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				AF2CAD531491F8D600EA4744 /* MacRuber.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +507,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF2CAD511491F8D600EA4744 /* MacRuber.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF2CAD521491F8D600EA4744 /* MacRuber.xcdatamodel */,
+			);
+			currentVersion = AF2CAD521491F8D600EA4744 /* MacRuber.xcdatamodel */;
+			path = MacRuber.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
 }

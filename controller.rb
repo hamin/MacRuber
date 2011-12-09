@@ -4,7 +4,11 @@
 # Created by Haris Amin on 4/29/11.
 # Copyright Haris Amin. All rights reserved.
 
+require 'core_data'
+
 class Controller
+  include CoreData
+  
   attr_accessor :testString, :regex, :bwLabel, :matchedString, :window
 	attr_accessor :referenceTableView
 
@@ -16,7 +20,7 @@ class Controller
 			@matchedString.stringValue = outText
 		rescue RegexpError
 			@matchedString.stringValue = 'No Match'
-			@matchedString.textColor = redColor
+			@matchedString.textColor = redColort
 		end		
   end
 	

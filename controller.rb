@@ -53,7 +53,23 @@ class Controller
     @ref_data << [ 'a{3,6}', 'Between 3 and 6 of a', {:skip => 0, :include => 1} ]
 
 		@referenceTableView.dataSource = self
+    
+    seed_data
   end
+  
+  def seed_data
+    snippet = NSEntityDescription.insertNewObjectForEntityForName("Snippet", inManagedObjectContext:@managedObjectContext)
+    
+    snippet.title = "Email Regex"
+    snippet.regexp = "\d..(a^)"
+    snippet.created_at = NSDate.date
+    snippet.updated_at = NSDate.date
+    snippet.summary = "This is an email regexp"
+    snippet.test_string = "Haris Amin's eamil address is aminharis7@gmail.com"
+    
+    @managedObjectContext.save(nil)
+  end
+
 	
 	def numberOfRowsInTableView(view)
     @ref_data.size
